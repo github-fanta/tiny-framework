@@ -1,6 +1,7 @@
 import core.BeanCore;
 import core.ClassCore;
 import core.DependInjectionCore;
+import core.RequestMappingCore;
 import util.ClassUtil;
 
 /**
@@ -12,7 +13,8 @@ public final class CoreLoader {
         Class<?>[] classList ={
                 ClassCore.class,
                 BeanCore.class,
-                DependInjectionCore.class
+                DependInjectionCore.class,
+                RequestMappingCore.class
         };
 
         for(Class<?> clazz : classList){

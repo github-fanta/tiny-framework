@@ -1,0 +1,14 @@
+##下面东西不需要放入Git中##
+# Maven 生成的target目录#
+target/
+
+# IDEA 工程文件#
+.idea/
+*.iml
+
+# Eclipse 工程文件 #
+.settings/
+.metadata/
+.classpath
+.project
+Servers/
